@@ -32,7 +32,7 @@ body{
     border-radius: 15px;
     background-color: var(--white-color);
     overflow: hidden;
-    width: clamp(20ch, 95%, 37.5rem);
+    width: clamp(20ch, 90%, 23.4375rem);
 }
 
 /* Card header */
@@ -41,6 +41,7 @@ body{
 }
 .card .card-header img, picture{
     height: 100%;
+    display: block;
 }
 
 /* Card body */
@@ -98,5 +99,23 @@ body{
         width: auto;
         max-width: 100%;
         display: block;
+    }
+    img {
+        height: 450px;
+        object-fit: cover;
+    }
+    .card{
+        width: clamp(20ch, 95%, 37.5rem);
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 767px){
+    .container {
+        width: unset;
+    }
+    /* Card */
+    .card{
+        flex-direction: column;
     }
 }
