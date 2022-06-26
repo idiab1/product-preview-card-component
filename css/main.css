@@ -85,7 +85,7 @@ body{
 
 .card .card-body .btn-product{
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: var(--dark-cyan);
     padding: 15px 75px;
     color: var(--white-color);
