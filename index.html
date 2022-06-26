@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Preview card component</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="libs/fontawesome/css/all.min.css">
+    <!-- Main -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Main -->
+    <main class="app" role="main">
+        <!-- Container -->
+        <div class="container">
+            <!-- card -->
+            <div class="card">
+                <!-- card header -->
+                <div class="card-header">
+                    <picture class="card-image">
+                        <source srcset="images/image-product-desktop.jpg"
+                                media="(min-width: 768px)">
+                        <img src="images/image-product-mobile.jpg" alt="" />
+                    </picture>
+                </div>
+                <!-- ./card header -->
+                <!-- Card body -->
+                <div class="card-body">
+                    <span>Perfume</span>
+                    <h1>Gabrielle Essence Eau De Parfum</h1>
+                    <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                    <p class="price">$149.99 <sub>$169.99</sub></p>
+                    <!-- Button add to cart -->
+                    <button class="btn-product" type="submit">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Add to Card
+                    </button>
+                </div>
+                <!-- ./Card body -->
+            </div>
+            <!-- ./card -->
+        </div>
+        <!-- ./container -->
+    </main>
+    <!-- ./main -->
+    
+</body>
+</html>
